@@ -4,14 +4,19 @@
 
 package ibirama.programacao01;
 
+import java.util.Date;
+
 /**
  *
  * @author aluno
  */
 public class Programacao01 {
-    public static void main(String[] args) {
-        System.out.println("SIX SEVEN");
-        
-      
+    
+    private String nome;
+    private Date dataNasmento;
+    private String CPF;
+    private char genero;
+    private String matricula;
+    private String email;
+    
     }
-}
