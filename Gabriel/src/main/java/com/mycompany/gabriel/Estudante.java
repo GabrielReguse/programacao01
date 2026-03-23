@@ -15,7 +15,6 @@ public class Estudante {
     private Date dataNascimento;
     private String cpf;
     private char genero;
-    private String matricula;
     private String email;
     private String nivelEnsino;
     private String telefone;
@@ -26,7 +25,8 @@ public class Estudante {
     private String situacaoAcademica;
     private String cincoDigitos;
     private String codigoMatricula;
-
+    private String matricula;
+    
     public Estudante() {
         setNome("Grégori");
         nome = "Nobody";
